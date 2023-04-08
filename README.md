@@ -20,7 +20,7 @@ This project uses face recognition to mark attendance in real-time. The system c
 # Usage
 
 1. Clone this repository
-2. Install the required libraries: 'code('pip install face_recognition opencv-python numpy')'
+2. Install the required libraries: 'pip install face_recognition opencv-python numpy'
 3. Create a 'photos' directory and add the images of individuals you want to recognize.
 4. Run 'python attendance.py' to start the system.
 5. The program will automatically detect faces in the camera's feed, recognize them, and mark their attendance by writing their name and the current time to a CSV file.
