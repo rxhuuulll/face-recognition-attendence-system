@@ -2,13 +2,10 @@
 
 This project uses face recognition to mark attendance in real-time. The system captures video from the camera and identifies individuals in the video stream by matching their faces with pre-stored images.
 
-## How it works
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
-i.The system captures video from the camera.
-ii.Each frame of the video is analyzed to identify faces.
+### How it works
+
+1. The system captures video from the camera.
+2. Each frame of the video is analyzed to identify faces.
 3.The faces are compared against a pre-stored set of images to identify
 individuals.
 4.If a face matches a pre-stored image, the system marks that individual as "present" and records their name and the current time in a CSV file.
